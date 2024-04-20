@@ -6,3 +6,29 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.black-forest{
+    background-image: url('../images/black-forest.jpg');
+    background-size: cover;
+    color: white;
+}
+
+/* unvisited link - default is blue */
+.black-forest a:link {
+    color: orange;
+  }
+  
+/* visited link - default is purple */
+.black-forest a:visited {
+    color: yellow;
+}
+  
+/* mouse over link - default is blue */
+.black-forest a:hover {
+    color: orange;
+}
+  
+/* selected link - default is red */
+.black-forest a:active {
+    color: greenyellow;
+}
