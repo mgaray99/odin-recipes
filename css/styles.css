@@ -9,26 +9,33 @@
 
 .black-forest{
     background-image: url('../images/black-forest.jpg');
+}
+
+.dark-background{
     background-size: cover;
     color: white;
 }
 
 /* unvisited link - default is blue */
-.black-forest a:link {
+.dark-background a:link {
     color: orange;
-  }
+}
   
 /* visited link - default is purple */
-.black-forest a:visited {
+.dark-background a:visited {
     color: yellow;
 }
   
 /* mouse over link - default is blue */
-.black-forest a:hover {
+.dark-background a:hover {
     color: orange;
 }
   
 /* selected link - default is red */
-.black-forest a:active {
+.dark-background a:active {
     color: greenyellow;
+}
+
+.swamp{
+    background-image: url('../images/swamp.jpg');
 }
