@@ -47,3 +47,30 @@
 .meadows{
     background-image: url('../images/meadows.jpg');
 }
+
+.meadows div.recipes-title,
+.meadows div .recipes-category{
+    background-color: brown;
+    padding: 10px;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.recipes-title{
+    margin: 0 auto;
+    text-align: center;
+    width: 620px;
+    margin: 5px auto;
+}
+
+.recipes-index{
+    text-align: center;
+    border-spacing: 0;
+}
+
+.recipes-category{
+    text-align: left;
+    display: inline-block;
+    width: 200px;
+    margin: 5px 5px;
+}
